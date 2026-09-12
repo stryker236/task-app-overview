@@ -8,9 +8,7 @@ The primary way to use it is conversational: you describe what you want in plain
 
 ## Demo
 
-<video src="https://github.com/stryker236/task-app-overview/raw/main/assets/task-app-demo.mp4" controls width="720">
-  Video preview not supported - <a href="assets/task-app-demo.mp4">download the demo</a>.
-</video>
+**[▶ Watch the demo](https://github.com/stryker236/task-app-overview/blob/main/assets/task-app-demo.mp4)** - GitHub's own file viewer plays it inline; this README can't embed it directly (GitHub only allows that for videos uploaded through its own editor, not ones committed to the repo).
 
 ## Product direction
 
