@@ -6,6 +6,12 @@ The primary way to use it is conversational: you describe what you want in plain
 
 > Task App is currently in active alpha development. This repository is a public product overview; the implementation and operational documentation are private.
 
+## Demo
+
+<video src="https://github.com/stryker236/task-app-overview/raw/main/assets/task-app-demo.mp4" controls width="720">
+  Video preview not supported - <a href="assets/task-app-demo.mp4">download the demo</a>.
+</video>
+
 ## Product direction
 
 - **Talk to it, don't configure it:** the main way to add, adjust, or ask about anything is a conversation in plain language.
