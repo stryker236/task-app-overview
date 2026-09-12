@@ -8,7 +8,7 @@ The primary way to use it is conversational: you describe what you want in plain
 
 ## Demo
 
-<video src="https://github.com/stryker236/task-app-overview/raw/main/assets/task-app-demo.mp4" controls width="720">
+<video src="https://github.com/stryker236/task-app-overview/raw/c8cc10614fc4a4af019af600bd47e56ed7b6483f/assets/task-app-demo.mp4" controls width="720">
   Video preview not supported - <a href="assets/task-app-demo.mp4">download the demo</a>.
 </video>
 
