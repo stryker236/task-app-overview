@@ -1,11 +1,3 @@
-
-
-https://github.com/user-attachments/assets/caa1b5c8-e3a0-48e4-a2ea-8d8f0e54da64
-
-
-
-https://github.com/user-attachments/assets/2267b4e9-3d79-4fd7-9694-c793d3cd9614
-
 # Task App
 
 Task App is an evolving personal productivity agent designed to reduce the effort required to organize everyday life and turn goals into action.
@@ -16,7 +8,7 @@ The primary way to use it is conversational: you describe what you want in plain
 
 ## Demo
 
-**[▶ Watch the demo](https://github.com/stryker236/task-app-overview/blob/main/assets/task-app-demo.mp4)** - GitHub's own file viewer plays it inline; this README can't embed it directly (GitHub only allows that for videos uploaded through its own editor, not ones committed to the repo).
+https://github.com/user-attachments/assets/caa1b5c8-e3a0-48e4-a2ea-8d8f0e54da64
 
 ## Product direction
 
