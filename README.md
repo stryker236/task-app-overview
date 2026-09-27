@@ -1,8 +1,12 @@
 # Task App
 
-Task App is an evolving personal productivity agent designed to reduce the effort required to organize everyday life and turn goals into action.
+Task App is a personal productivity agent built for a problem most planners ignore: people stop opening the app.
 
-The primary way to use it is conversational: you describe what you want in plain language, and the agent turns that into the same tasks, routines, goals, and schedule changes the rest of the product works with - no forms or settings screens required for everyday use. Instead of asking people to constantly maintain a perfect plan, the product brings together tasks, routines, goals, and calendar context. The agent proposes schedules, detects conflicts, and adapts over time from approvals and feedback. The user stays in control of every meaningful change.
+Goals become overwhelming because it is hard to know how much effort to put in, whether you are on track, or how to adjust when life changes. Most tools are fire-and-forget — you fill them in once, then the system waits for you to remember it exists.
+
+Task App is meant to work more like a chief of staff. You talk to it in plain language. It pulls calendar context, asks concrete questions instead of expecting a complete setup, proposes a realistic plan, and reorganizes when you miss something or the week shifts. After a working session it can ask what you actually did. Over time it keeps a progress score and an archive of sessions.
+
+The user stays in control of every meaningful change.
 
 > Task App is currently in active alpha development. This repository is a public product overview; the implementation and operational documentation are private.
 
@@ -12,23 +16,28 @@ https://github.com/user-attachments/assets/caa1b5c8-e3a0-48e4-a2ea-8d8f0e54da64
 
 ## Product direction
 
-- **Talk to it, don't configure it:** the main way to add, adjust, or ask about anything is a conversation in plain language.
+- **Ask, don't wait:** it is easier to answer a prompt than to remember a system. Questions like "what is this project for?" and "how long will this take?" are core, not extras.
+- **Talk to it, don't configure it:** add, adjust, or ask about anything in plain language.
 - **Bring everything together:** tasks, routines, goals, constraints, and calendar context share one planning model.
-- **Let the agent handle the plan:** the system turns intentions into realistic suggestions and replans when circumstances change.
+- **Pull the user back in:** the product should notice drift, warn about important work, and make showing up feel lighter than maintaining a plan by hand.
 - **Stay in control:** users approve changes, understand why they were suggested, and teach the agent through feedback.
 
 ## How it fits together
 
 ```mermaid
 flowchart LR
-    U[Conversation in plain language] --> A[Task App]
+    Q[Questions and prompts] --> A[Task App]
+    U[Conversation in plain language] --> A
     R[Routines and goals] --> A
     C[Calendar context] --> A
     A --> P[Planning and conflict detection]
     P --> S[Proposed schedule]
     S --> F{User review}
-    F -->|Approve| E[Execution]
+    F -->|Approve| E[Do the work]
+    E --> Recap[Short session recap]
+    Recap --> Score[Progress score and archive]
     F -->|Adjust or reject| L[Preference learning]
+    Score --> L
     L --> P
 ```
 
@@ -43,4 +52,4 @@ Screenshots and demonstrations published here will use fictional data. The publi
 
 ## Project status
 
-The foundations for task management, routines, calendar-aware planning, Advisor suggestions, and feedback are being developed iteratively. Current work is focused on making the conversational interface handle everyday planning changes reliably on its own - without falling back to a slower general-purpose exchange - and on keeping the scheduler's reasoning explainable when a conflict or a rejected change needs a plain-language answer.
+The foundations for task management, routines, calendar-aware planning, Advisor suggestions, and feedback are being developed iteratively. Current work is focused on making the conversational interface handle everyday planning changes reliably, asking the right questions at the right time, and keeping the scheduler's reasoning explainable when a conflict or a rejected change needs a plain-language answer.
