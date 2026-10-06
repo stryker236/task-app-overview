@@ -28,11 +28,12 @@ The agent should:
 2. Turn goals and unstructured intentions into actionable proposals.
 3. Find realistic time for tasks and routines, and warn when something important is approaching.
 4. Detect impossible or conflicting plans before they surprise the user.
-5. Replan when new tasks arrive, constraints change, or work is not completed.
+5. Replan when new tasks arrive, constraints change, or work is not completed. The user chooses how: keep what is already confirmed and only fit the new items around it, or rebuild the whole plan.
 6. Elicit a short recap after a work session and keep an archive of sessions.
 7. Keep a running, optionally competitive, score of progress — without turning the product into a noisy game.
 8. Explain its proposals and the trade-offs behind them.
 9. Learn carefully from approvals, adjustments, rejections, and recaps.
+10. Match the plan to what the person can actually do. When work keeps slipping, propose a lighter plan and build back up from there, instead of proposing the same load again. Missing is information, not failure.
 
 ## Control and trust
 
@@ -67,6 +68,19 @@ Trust depends on understandable suggestions, reversible actions, visible uncerta
 - **Explainability:** important suggestions should include concise reasons and identify blocked alternatives.
 - **Progressive autonomy:** automation grows only as the system earns confidence and the user grants it.
 - **Privacy by design:** personal planning data and learned behavior are sensitive by default.
+
+## Two directions of interaction
+
+- **The user talks to the app.** Through the chat, the user defines goals, routines, and events, confirms the proposed schedule, and later adds new ideas and commitments that trigger a replan.
+- **The app reaches out to the user.** It brings the plan to the user, nudges at the right moment, and keeps momentum with light incentives such as streaks, so the plan does not depend on remembering to open the app.
+
+## Later: one place for everything you track
+
+Over time, the app should absorb what people now spread across separate productivity and self-care apps (habits, trackers, journals, wellbeing routines), so that the plan sees the whole person in one place. Each addition must earn its place by feeding the plan, not by adding another screen to maintain.
+
+## Later: community
+
+Once the core loop works for individuals, the product may grow a social layer: people sharing goals and progress, and finding others who struggle with the same things. This is a long-term direction, not part of the current roadmap, and it must respect the privacy principle above: nothing is shared unless the user chooses to share it.
 
 ## What success looks like
 
