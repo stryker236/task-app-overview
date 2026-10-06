@@ -74,6 +74,10 @@ Trust depends on understandable suggestions, reversible actions, visible uncerta
 - **The user talks to the app.** Through the chat, the user defines goals, routines, and events, confirms the proposed schedule, and later adds new ideas and commitments that trigger a replan.
 - **The app reaches out to the user.** It brings the plan to the user, nudges at the right moment, and keeps momentum with light incentives such as streaks, so the plan does not depend on remembering to open the app.
 
+## Later: one place for everything you track
+
+Over time, the app should absorb what people now spread across separate productivity and self-care apps (habits, trackers, journals, wellbeing routines), so that the plan sees the whole person in one place. Each addition must earn its place by feeding the plan, not by adding another screen to maintain.
+
 ## Later: community
 
 Once the core loop works for individuals, the product may grow a social layer: people sharing goals and progress, and finding others who struggle with the same things. This is a long-term direction, not part of the current roadmap, and it must respect the privacy principle above: nothing is shared unless the user chooses to share it.
